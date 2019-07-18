@@ -1,0 +1,14 @@
+body {
+  font-family: helvetica;
+  color: teal;
+}
+
+.iandb {
+  font-style: italic;
+  font-style: bold;
+}
+
+#gameLink {
+  text-align: center;
+  border: 1px teal;
+}

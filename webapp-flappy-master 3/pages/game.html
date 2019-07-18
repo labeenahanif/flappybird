@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>flappy bird 2.0</title>
+    <link rel = "stylesheet" href = "../lib/bootstrap.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron"
+          <h1><i><b>F L A P P Y B I R D 2.0 !</b></i></h1>
+          <p>welcome to flappy bird 2.0. this game was created by labeena hanif at the cambridge coding academy.</p>
+          <p>how to play the game: </p>
+          <ul>
+            <li> press SPACE to flap your wings. </li>
+            <li> avoid the pipes. </li>
+            <li> if you crash, try again! </li>
+          </ul>
+      </div>
+              <div class="row">
+                  <div class="col-md-2" id="instagram">
+                      <img src="../assets/flappy.png" class="img-responsive"/>
+                  </div>
+                  <div class="col-md-2">
+                      <div class= "col-md-3" id="help"><button type="button" class="button" id="scoresbutton">help</button></div>
+                  </div>
+                  <div class= "col-md-2" id="credits"><button type="button" class="button" id="scoresbutton">contributors</button></div>
+                  <div class="col-md-2" id="scores">
+                    <button type="button" class="button" id="scoresbutton">scores</button>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-md-9"id="game"> </div>
+                <div class="col-md-1">
+                  <img src="../assets/pipedecor.png" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="../assets/alternateplayer.png"  id="bird" class="img-responsive"/>
+                </div>
+              </div>
+      </div>
+
+
+      <script type="text/javascript" src="../lib/phaser.min.js"></script>
+      <script type="text/javascript" src="../js/flappy.js"></script>
+      <script type="text/javascript" src="../lib/jquery.js"></script>
+      <script type="text/javascript" src="../js/interactivity.js"></script>
+  </body>
+</html>
